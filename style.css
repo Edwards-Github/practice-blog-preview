@@ -47,11 +47,15 @@ body {
 }
 
 .class-title {
-  color: hsl(47, 88%, 63%);
+  color: black;
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 20px;
   cursor: pointer;
+}
+
+.class-title:hover {
+  color: hsl(47, 88%, 63%);
 }
 
 .class-description {
