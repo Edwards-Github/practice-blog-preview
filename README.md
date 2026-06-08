@@ -16,7 +16,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 	    	Right now your "shelf" (the body) is the same height as the "book" (the card).
 
   - [The challenge] On mobile view the whole thing is zoomed in so you can only see portions of the whole thing.
-  - [Screenshot] <img width="333" height="507" alt="image" src="https://github.com/user-attachments/assets/f3599357-91fc-4a79-96d1-6cc8ae0ffe69" />
+  - [Screenshot] 
+  	<img width="333" height="507" alt="image" src="https://github.com/user-attachments/assets/f3599357-91fc-4a79-96d1-6cc8ae0ffe69" />
   - [Solution] I had property max-width: 375px; on the container class, but the phone screen is exactly 375px wide so it left no space left and right of container.
   - [Explanation] Key insight: width: 100% means 100% of the parent's width. And the parent is the body. So if the body had some padding on the sides, the container's
 	   	100% would naturally be smaller than the screen (this was the fix)!
