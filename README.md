@@ -6,18 +6,18 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [The challenge] centering image (need to remember margin: auto works on block type elements and image is inline element)
-  - [Screenshot](#screenshot)
   - [Solution] Solution: change image to a block size element with display: block; and margin: auto;
 
   - [The challenge] centering container to middle of the browser.
-  - [Screenshot](#screenshot)
+  - [Screenshot] <img width="1540" height="784" alt="image" src="https://github.com/user-attachments/assets/10cac44c-ca05-4702-a319-9ab917c1a80a" />
   - [Solution] Fixed this by making the body the full height of the "viewport height". Added "height: 100vh" to the body.
   - [Explanation] The issue is that the body is only as tall as its content right now — so there's no extra vertical space to center within.
 	    	Think of it like this: if you wanted to center a book on a shelf, the shelf needs to actually be taller than the book. 
 	    	Right now your "shelf" (the body) is the same height as the "book" (the card).
 
   - [The challenge] On mobile view the whole thing is zoomed in so you can only see portions of the whole thing.
-  - [Screenshot](#screenshot)
+  - [Screenshot] 
+  	<img width="333" height="507" alt="image" src="https://github.com/user-attachments/assets/f3599357-91fc-4a79-96d1-6cc8ae0ffe69" />
   - [Solution] I had property max-width: 375px; on the container class, but the phone screen is exactly 375px wide so it left no space left and right of container.
   - [Explanation] Key insight: width: 100% means 100% of the parent's width. And the parent is the body. So if the body had some padding on the sides, the container's
 	   	100% would naturally be smaller than the screen (this was the fix)!
@@ -48,15 +48,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<img width="2547" height="1362" alt="image" src="https://github.com/user-attachments/assets/92896af4-e2df-4a85-b126-192365c0e57b" />
 
 ### Links
 
@@ -94,4 +86,4 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
 ## Author
 
 - Website - [Edward] (https://github.com/Edwards-Github)
-- Frontend Mentor - [@Edwards-Github](https://www.frontendmentor.io/profile/Edwards-Github)
+- Frontend Mentor - [@Edwards-Github] (https://www.frontendmentor.io/profile/Edwards-Github)
