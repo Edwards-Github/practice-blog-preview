@@ -48,15 +48,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<img width="2547" height="1362" alt="image" src="https://github.com/user-attachments/assets/92896af4-e2df-4a85-b126-192365c0e57b" />
 
 ### Links
 
@@ -94,4 +86,4 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
 ## Author
 
 - Website - [Edward] (https://github.com/Edwards-Github)
-- Frontend Mentor - [@Edwards-Github](https://www.frontendmentor.io/profile/Edwards-Github)
+- Frontend Mentor - [@Edwards-Github] (https://www.frontendmentor.io/profile/Edwards-Github)
